@@ -6,5 +6,5 @@ node_modules
 /.vs
 /package-lock.json
 /package.json
-/server/CommuniPrep.db
+# /server/CommuniPrep.db
 /server/videos
