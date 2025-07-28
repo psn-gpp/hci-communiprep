@@ -1,0 +1,61 @@
+:root {
+  --icon-gradient-percentage: 50%; /* Default value */
+}
+
+.blinking-icon {
+  position:absolute;
+  margin-top:1%;
+  right:2%;
+  z-index:10;
+  color: red;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1; /* Fully visible */
+  }
+  50% {
+    opacity: 0; /* Hidden */
+  }
+}
+
+.video-preview {
+  width: 100%;
+  height: 100%; 
+  max-height: 23vh;
+  transform: scaleX(-1);
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.video-container {
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-width: 15vw;
+  min-height: 23vh;
+  max-height: 35vh;
+  background-color: #eeeeee;
+  /* background-color: #C7CBE7; */
+  overflow: hidden;
+}
+
+.avatar-container {
+  height:100%;
+  transform: scale(1.1); /* Zoom in */
+  position: absolute; /* Move to crop */
+  bottom: -10px;
+}
+
+.icon {
+  background: linear-gradient(
+    to top,
+    #FF0000 var(--icon-gradient-percentage),
+    #CCCCCC var(--icon-gradient-percentage)
+  );
+  -webkit-background-clip: text; /* Clips the gradient to the text */
+  -webkit-text-fill-color: transparent; /* Makes the text transparent, showing the gradient */
+  display: inline-block;
+}

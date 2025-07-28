@@ -1,0 +1,99 @@
+/* General Page Style */
+.page-container {
+    margin-top: 0px;
+    padding: 2rem;
+  }
+  
+  .page-header {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .form-control {
+    font-size: 0.9rem;
+  }
+  
+
+
+  .custom-select-control {
+    border-radius: 12px;
+    box-shadow: none;
+    border-color: #C7CBE7;
+    background-color: #FCFCFC;
+  }
+  
+  .filter {
+    min-width: 80%; /* Ensures a reasonable minimum width */
+    max-width: 95%; /* Optional: Prevents fields from getting too wide */
+  }
+
+  .filter {
+    min-width: 20%; /* Ensures a reasonable minimum width */
+    max-width: 35%; /* Optional: Prevents fields from getting too wide */
+  }
+
+
+
+  .table-container {
+    margin-top: 2rem;
+  }
+  
+  .table-scroll-container {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .table-header th {
+    background-color: #341f97;
+    color: white;
+    
+  }
+  
+  .table-action-button {
+    margin: 0 5px;
+  }
+  
+  .table-row td {
+    vertical-align: middle;
+  }
+  
+
+
+  .button-add {
+    background-color: #feb421;
+    border-color: #feb421;
+    color: #faf8f3;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 12px;
+  }
+
+  .button-add:hover {
+    background-color: #f98100;
+    border-color: #f98100;
+    color: #faf8f3;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 12px;
+  }
+  
+  .justify-row {
+    display: flex;
+    justify-content:flex-start;
+  }
+  
+  .duration-input {
+    width: 48%;
+  }
+  
+  .table-action-button-secondary, .table-action-button-warning, .table-action-button-danger {
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .table-row td {
+    padding: 10px;
+  }
+  
+  
+

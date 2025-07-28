@@ -1,0 +1,71 @@
+.ai-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.ai-box:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 15px;
+  padding: 2px;
+  background: linear-gradient(135deg, rgba(0, 255, 255, 0.8), rgba(0, 0, 255, 0.8));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  color: #ffed7a;
+}
+
+.videoPreview {
+  width: 100%;
+  height: 100%;
+  max-width: 30vw;
+  max-height: 30vh;
+  border-radius: 15px;
+}
+
+.videoContainer {
+  border: 1px solid black;
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 20vw;
+  max-width: 30vw;
+  min-height: 20vh;
+  background-color: black;
+}
+
+.link {
+  color: blue;
+}
+
+.link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#answer-card {
+  display: flex;
+  flex-direction: column; /* Ensure child elements are stacked */
+  height: 100%; /* Take full height of the parent container */
+}
+
+#answer-card > div {
+  flex-grow: 1; /* Grow to take up remaining space */
+  overflow-y: auto; /* Add scrollbar when content overflows */
+}
+
+#feedbackCard {
+  background-color: #5965a5;
+  color: #fcfcfc;
+}
+
+#backButton {
+  position: fixed;
+  bottom: 18px;
+  left: 30px;
+}

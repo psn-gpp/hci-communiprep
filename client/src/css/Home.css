@@ -1,0 +1,30 @@
+#panel {
+    margin-bottom: 24px !important;
+}
+
+#start-interview {
+  margin-top: 1rem; 
+  height: 4rem;
+   width: 15rem;
+   font-size: 22px !important;
+}
+
+#formLabel {
+  color:white !important;
+}
+
+#panelTitle {
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 0.9rem !important;
+}
+
+#cancelBtn {
+  color: darkred;
+  border-color: darkred;
+}
+
+#cancelBtn:hover {
+  color: white !important;
+  background-color: darkred !important;
+}

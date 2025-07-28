@@ -1,0 +1,2 @@
+GET http://localhost:3001/api/interviews/123/questions/46/answers
+Content-Type: application/json
